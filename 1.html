@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <title>Introducing Mark - NCT U</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1><a href="index.html">NCT</a></h1>
+  <input type="button" value="night" onclick="
+      document.querySelector('body').style.backgroundColor = 'black';
+      document.querySelector('body').style.color = 'white';
+  ">
+  <input type="button" value="day" onclick="
+      document.querySelector('body').style.backgroundColor = 'white'
+      document.querySelector('body').style.color = 'black'
+        ">
+  <input id="night_day" type="button" value="night" onclick="
+      if(document.quarySelector('#night_day').value === night){
+      document.querySelector('body').style.backgroundColor = 'black';
+      document.querySelector('body').style.color = 'white';
+      }
+      else {
+        document.querySelector('body').style.backgroundColor = 'white'
+        document.querySelector('body').style.color = 'black';
+      }
+    ">
+
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">NCT U</a></li>
+        <li><a href="2.html">NCT127</a></li>
+        <li><a href="3.html">NCT Dream</a></li>
+      </ol>
+  <!--
+    <h1><a href="index.html"><font color="red">NCT</font></a></h1>
+    <ol>
+      <li><a href="1.html"><font color="red">NCT U</font></a></li>
+      <li><a href="2.html"><font color="red">NCT127</font></a></li>
+      <li><a href="3.html"><font color="red">NCT Dream</font></a></li>
+    </ol>
+  -->
+      <div id="article">
+        <h2>NCT U</h2>
+        엔시티 안에서 여러 조합을 만들 수 있다.
+      </div>
+    </div>
+
+</body>
+</html>
